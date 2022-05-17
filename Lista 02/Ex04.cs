@@ -8,8 +8,8 @@ public class Program {
      double b = double.Parse(s);
     
     Console.WriteLine("Digite o valor da altura");
-     string r = Console.ReadLine(); //r = input()
-     double h = double.Parse(r);   // h = float(r)
+     string r = Console.ReadLine();
+     double h = double.Parse(r);
     
      double a = b * h;
      double p = b*2 + h*2;
