@@ -16,7 +16,11 @@ Console.WriteLine("Digite o segundo hor ário no formato hh:mm");
 
   int min = m1 + m2;
   int h = h1 + h2;
-    if (min >= 60) min - 60 && h + 1
-Console.WriteLine(h + min);
+    if (min >= 60){
+      min = min - 60;
+      h += 1;
+    } 
+
+      Console.WriteLine($"Total de horas = {h:00}:{min:00}");
   }
 }
