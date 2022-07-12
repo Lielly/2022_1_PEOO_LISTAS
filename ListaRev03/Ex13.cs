@@ -4,13 +4,13 @@ public class Program {
 
   public static void Main(string[] args) {
     Console.WriteLine("Digite uma frase:");
-    string texto = Console.ReadLine();
-    int x = texto.Length;
+    string t = Console.ReadLine();
+    int x = t.Length;
     int i = 1;
     string c = "";
     while(x >= i){
-      c += texto.Substring(x-1);
-      texto = texto.Remove(x-1);
+      c += t.Substring(x-1);
+      t = t.Remove(x-1);
       x--;
     }
     Console.WriteLine(c);

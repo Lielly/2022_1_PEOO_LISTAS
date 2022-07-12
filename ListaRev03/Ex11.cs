@@ -4,22 +4,22 @@ public class Program {
 
   public static void Main(string[] args) {
     Console.WriteLine("Digite uma frase:");
-    string texto = Console.ReadLine();
-    int x = texto.Length;
+    string t = Console.ReadLine();
+    int x = t.Length;
     int i = 0;
-    int soma = 0;
+    int s = 0;
     while(i < x){
-      if(texto[i] == '1') soma += 1;
-      if(texto[i] == '2') soma += 2;
-      if(texto[i] == '3') soma += 3;
-      if(texto[i] == '4') soma += 4;
-      if(texto[i] == '5') soma += 5;
-      if(texto[i] == '6') soma += 6;
-      if(texto[i] == '7') soma += 7;
-      if(texto[i] == '8') soma += 8;
-      if(texto[i] == '9') soma += 9;
+      if(t[i] == '1') s += 1;
+      if(t[i] == '2') s += 2;
+      if(t[i] == '3') s += 3;
+      if(t[i] == '4') s += 4;
+      if(t[i] == '5') s += 5;
+      if(t[i] == '6') s += 6;
+      if(t[i] == '7') s += 7;
+      if(t[i] == '8') s += 8;
+      if(t[i] == '9') s += 9;
       i++;
     }
-    Console.WriteLine(soma);
+    Console.WriteLine(s);
   }
 }

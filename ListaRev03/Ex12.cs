@@ -4,8 +4,8 @@ public class Program {
 
   public static void Main(string[] args) {
     Console.WriteLine("Digite uma frase:");
-    string texto = Console.ReadLine();
-    string[] v = texto.Split();
+    string t = Console.ReadLine();
+    string[] v = t.Split();
     int x = v.Length;
     Console.WriteLine(x);
   }
