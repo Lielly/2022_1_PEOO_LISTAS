@@ -1,6 +1,8 @@
-using System;
-class Program{
-  public static void Main(){
+using System; 
+
+public class Program {
+
+  public static void Main(string[] args) {
     Console.WriteLine("Digite uma frase:");
     string palavra = Console.ReadLine();
     int q = 0;
