@@ -2,7 +2,7 @@ using System;
 
 class Program {
   public static void Main() {
-    Console.WriteLine("Digite uma frase");
+    Console.WriteLine("Digite uma frase:");
     string s = Console.ReadLine();
     int i = 1;
     while (i <= s.Length) {
